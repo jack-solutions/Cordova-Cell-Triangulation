@@ -1,13 +1,13 @@
 /**
  * @constructor
  */
-var cellidinfoplugin = function(){};
+var CellIdInfoPlugin = function(){};
 
-cellidinfoplugin.prototype.getCellInfo = function(successCallback, failure){
+CellIdInfoPlugin.prototype.getCellInfo = function(successCallback, failure){
 	cordova.exec(successCallback, failure, "CellIdInfoPlugin", "getCellInfo", []);
 };
 
-cellidinfoplugin.prototype.getGeoCords = function(successCallback, failure){
+CellIdInfoPlugin.prototype.getGeoCords = function(successCallback, failure){
   cordova.exec(successGeoCords, failure, "CellIdInfoPlugin", "getGeoCords", []);
 };
 
