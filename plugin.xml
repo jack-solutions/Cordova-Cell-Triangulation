@@ -13,7 +13,7 @@
   </engines>
 
   <js-module src="www/cellidinfoplugin.js" name="CellTringulations">
-    <clobbers target="cordova.plugins.cellidinfoplugin" />
+    <clobbers target="window.plugins.CellIdInfoPlugin" />
   </js-module>
 
   <!-- android -->
